@@ -1,0 +1,10 @@
+cd ~/Desktop/dz_18.11.26
+
+cat << 'EOF' > .gitignore
+venv/
+.venv/
+chroma_db/
+__pycache__/
+*.pyc
+.DS_Store
+EOF
